@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gurnoor/ucs645/ques3'
+relocations:     []
+...
