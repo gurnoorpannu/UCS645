@@ -1,0 +1,3 @@
+## Inference
+
+In this problem, merge sort was implemented using both CPU pipelined (bottom-up) and CUDA-based parallel approaches. The CPU pipelined version improves efficiency over recursive merge sort by reducing function call overhead, but it still executes sequentially. The CUDA implementation performs merging operations in parallel using multiple threads, which can significantly reduce execution time for large datasets. However, for smaller input sizes like N=1000, the performance improvement is limited due to kernel launch overhead and memory transfer latency. This highlights that GPU acceleration is more beneficial for large-scale data processing.
